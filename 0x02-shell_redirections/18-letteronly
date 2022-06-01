@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -ve '^[a-zA-Z]' /etc/ssh/ssh_config
+grep '^[[:upper:]][[:lower:]]'
